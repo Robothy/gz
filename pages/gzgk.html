@@ -1,53 +1,52 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/page.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<title>div+css+javascript 实现无缝滚动,marquee无缝滚动，无缝滚动,兼容firefox</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
 <style type="text/css">
-#scrollobj {
-white-space: nowrap;
-overflow: hidden;
-width: 500px;
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#CCC;
 }
 </style>
+<link href="../style/temp.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<div id="scrollobj" onmouseover="javascript:_stop();" onmouseout="javascript:_start();">
-这里是要滚动的内容
+
+<div class="daohan">
+  <table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="200" height="70"><img src="../images/logo.png" width="200" height="70" /></td>
+      <td align="center" valign="middle">
+      <a href="#" class="daohan_txt">首页</a>|
+      <a href="#" class="daohan_txt">红色故都</a>|
+      <a href="#" class="daohan_txt">江南宋城</a>|
+      <a href="#" class="daohan_txt">生态明珠</a>|
+      <a href="#" class="daohan_txt">客家摇篮</a>|
+      <a href="#" class="daohan_txt">世界橙乡</a>
+      </td>
+    </tr>
+  </table>
 </div>
-<script language="javascript" type="text/javascript">
-<!--
-function scroll(obj) {
+<div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
+<!-- InstanceBeginEditable name="main" -->
+<div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
 
-/*往左*/
-var tmp = (obj.scrollLeft)++;
-//当滚动条到达右边顶端时
-if (obj.scrollLeft == tmp) {
-obj.innerHTML += obj.innerHTML;
-}
-//当滚动条滚动了初始内容的宽度时滚动条回到最左端
-if (obj.scrollLeft >= obj.firstChild.offsetWidth) {
-obj.scrollLeft = 0;
-}
+<h2 align="center">赣州概况</h2>
 
-/*往上*/
-//var tmp = (obj.scrollTop)++;
-//if (obj.scrollTop == tmp) {
-// obj.innerHTML += obj.innerHTML;
-//}
-//if (obj.scrollTop >= obj.firstChild.offsetWidth) {
-// obj.scrollTop = 0;
-//}
-}
-var _timer = setInterval("scroll(document.getElementById('scrollobj'))", 20);
-function _stop() {
-if (_timer != null) {
-clearInterval(_timer);
-}
-}
-function _start() {
-_timer = setInterval("_scroll(document.getElementById('scrollobj'))", 20);
-}
-//-->
-</script>
-</body>
-</html> 
+
+
+</div>
+<!-- InstanceEndEditable -->
+</div><!-- #BeginLibraryItem "/Library/copyright.lbi" --><div style="height:70px; font-family:'仿宋'; background-color:#09F; text-align:center;"><br />
+  1312441117罗福享©版权所有</div><!-- #EndLibraryItem -->
+  </body>
+<!-- InstanceEnd --></html>
