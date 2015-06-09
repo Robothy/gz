@@ -11,19 +11,20 @@ width:676px;
 } 
 
 .daohanlan_txt {
-	text-decoration: none;
+	font-size:24px;
 	font-family:"微软雅黑";
-	font-size:20px;
-	color:#9C0;
-	margin-left:20px;
-	margin-right:20px;
-	background-color:#06F;
+	font-weight:bold;
+	color:#FC0;
+	background-color:#00F;
+	margin-left:18px;
+	margin-right:18px;
+	text-decoration:none;
 }
 
 .txt1{font-size:16px; font-family:"隶书"; line-height:25px; text-indent:30px; margin-left:30px;}
 
 .daohanlan_txt:hover{
-	color:#9F0;
+	color:#FF0;
 	background-color:#09F;
 }
 #banner {position:relative; width:1024px; height:500px; border:1px solid #666; overflow:hidden;}
