@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/page.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>无标题文档</title>
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 <style type="text/css">
 body {
 	margin-left: 0px;
@@ -37,9 +37,10 @@ body {
   </table>
 </div>
 <div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
-<!-- InstanceBeginEditable name="main" -->
-<div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px;">fdfdfsafas</div>
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="main" -->
+<div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
+</div>
+<!-- TemplateEndEditable -->
 </div>
 <!-- #BeginLibraryItem "/Library/copyright.lbi" -->
 <div style="height:70px; font-family:'仿宋'; background-color:#09F; text-align:center;">
@@ -48,4 +49,4 @@ body {
 </div>
 <!-- #EndLibraryItem -->
 </body>
-<!-- InstanceEnd --></html>
+</html>

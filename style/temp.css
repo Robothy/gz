@@ -1,0 +1,19 @@
+@charset "utf-8";
+.daohan {
+	background-color:#00F;
+}
+
+.daohan_txt{
+	font-size:24px;
+	font-family:"微软雅黑";
+	color:#FC0;
+	text-decoration:none;
+	background-color:00F;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.daohan_txt:hover{
+	color:#FF0;
+	background-color:#09F;
+}
