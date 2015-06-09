@@ -41,6 +41,7 @@ body {
 <div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
 </div>
 <!-- TemplateEndEditable -->
+<<<<<<< HEAD
 </div>
 <!-- #BeginLibraryItem "/Library/copyright.lbi" -->
 <div style="height:70px; font-family:'仿宋'; background-color:#09F; text-align:center;">
@@ -49,4 +50,9 @@ body {
 </div>
 <!-- #EndLibraryItem -->
 </body>
+=======
+</div><!-- #BeginLibraryItem "/Library/copyright.lbi" --><div style="height:70px; font-family:'仿宋'; background-color:#09F; text-align:center;"><br />
+  1312441117罗福享©版权所有</div><!-- #EndLibraryItem -->
+  </body>
+>>>>>>> dev
 </html>
