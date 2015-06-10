@@ -5,6 +5,17 @@
 =======
 /* CSS Document */
 
+.txt2{
+	padding-left:100px;
+	padding-right:100px; 
+	padding-top:30px;
+	padding-bottom:30px; 
+	font-size:18px; 
+	font-family:"隶书";
+	line-height:30px;
+	text-indent:30px;
+}
+
 .txt_img{
 	width:55px;
 	height:33px;

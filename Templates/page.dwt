@@ -26,17 +26,18 @@ body {
     <tr>
       <td width="200" height="70"><img src="../images/logo.png" width="200" height="70" /></td>
       <td align="center" valign="middle">
-      <a href="#" class="daohan_txt">首页</a>|
-      <a href="#" class="daohan_txt">红色故都</a>|
-      <a href="#" class="daohan_txt">江南宋城</a>|
-      <a href="#" class="daohan_txt">生态明珠</a>|
-      <a href="#" class="daohan_txt">客家摇篮</a>|
-      <a href="#" class="daohan_txt">世界橙乡</a>
+      <a href="../index.html" class="daohan_txt">首页</a>|
+      <a href="../pages/hsgd.html" class="daohan_txt">红色故都</a>|
+      <a href="../pages/jnsc.html" class="daohan_txt">江南宋城</a>|
+      <a href="../pages/stmz.html" class="daohan_txt">生态明珠</a>|
+      <a href="../pages/ksyl.html" class="daohan_txt">客家摇篮</a>|
+      <a href="../pages/sjcx.html" class="daohan_txt">世界橙乡</a>
       </td>
     </tr>
   </table>
 </div>
-<div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
+<div style="width:1024px; background-color:#FFF; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
+
 <!-- TemplateBeginEditable name="main" -->
 <div style="width:1024px; margin-left:auto; margin-right:auto; min-height:500px; border:#00f solid 1px;">
 </div>
