@@ -10,7 +10,22 @@ overflow: hidden;
 width:676px;
 } 
 
-.daohanlan_txt {
+
+body {
+	background-color: #CCC;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.daohan{
+	background-color:#00F;
+	height:70px;
+}
+
+
+.daohan_txt{
 	font-size:24px;
 	font-family:"微软雅黑";
 	font-weight:bold;
@@ -20,13 +35,13 @@ width:676px;
 	margin-right:18px;
 	text-decoration:none;
 }
+.daohan_txt:hover{
+	background-color:#09F;
+	color:#FF0;
+}
 
 .txt1{font-size:16px; font-family:"隶书"; line-height:25px; text-indent:30px; margin-left:30px;}
 
-.daohanlan_txt:hover{
-	color:#FF0;
-	background-color:#09F;
-}
 #banner {position:relative; width:1024px; height:500px; border:1px solid #666; overflow:hidden;}
 #banner_list img {border:0px;}
 #banner_bg {position:absolute; bottom:0;background-color:#000;height:30px;filter: Alpha(Opacity=30);opacity:0.3;z-index:1000;cursor:pointer; width:478px; }
