@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS Document */
 
 .txt2{
@@ -51,11 +52,17 @@
 .daohan{
 	background-color:#00F;
 	height:70px;
+=======
+@charset "utf-8";
+.daohan {
+	background-color:#00F;
+>>>>>>> d6efc380c3a55ba50ae66068361470ba4d31aee0
 }
 
 .daohan_txt{
 	font-size:24px;
 	font-family:"微软雅黑";
+<<<<<<< HEAD
 	font-weight:bold;
 	color:#FC0;
 	background-color:#00F;
@@ -66,4 +73,16 @@
 .daohan_txt:hover{
 	background-color:#09F;
 	color:#FF0;
+=======
+	color:#FC0;
+	text-decoration:none;
+	background-color:00F;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.daohan_txt:hover{
+	color:#FF0;
+	background-color:#09F;
+>>>>>>> d6efc380c3a55ba50ae66068361470ba4d31aee0
 }
