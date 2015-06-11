@@ -1,10 +1,18 @@
-/**************************************************
- * babyzone.js beta1
- * 作者：橡树小屋 09.1.2010
- * http://www.cnblogs.com/babyzone2004/
- * 用法：//count:图片数量，wrapId:包裹图片的DIV,ulId:按
-        钮DIV,infoId：信息栏 babyzone.scroll(count,wrapId,ulId,infoId);
- **************************************************/
+
+function if_music()
+{
+	if(confirm("是否播放音乐？"))
+	{
+		document.getElementById("music_box").innerHTML="<embed src=\"music/xzm.mid\" width=\"0\" height=\"0\"></embed>";
+		
+	}
+	else
+	{
+		;
+	}
+}
+
+
 var babyzone = function() {
 	function id(name) {return document.getElementById(name);}
 	//遍历函数
