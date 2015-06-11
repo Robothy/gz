@@ -11,8 +11,8 @@
 <script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
 <script type="text/javascript" language="javascript">
 window.onload=function(){
-	//
 	babyzone.scroll(5,"banner_list","list","banner_info");
+	if_music();
 }
 function MM_effectShake(targetElement)
 {
@@ -21,6 +21,9 @@ function MM_effectShake(targetElement)
 </script>
 </head>
 <body>
+
+<div id="music_box" style=" width:0px; height:0px;">
+</div>
 
 <div class="daohan">
   <table width="1024" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -46,11 +49,11 @@ function MM_effectShake(targetElement)
 		<a href="#" id="banner_info"></a> <!--标题-->
     	<ul id="list"></ul>
   		<div id="banner_list">
-            <a href="#" target="_blank"><img src="images/hs.jpg" title="红色故都" alt="红色故都" /></a>
-        	<a href="#" target="_blank"><img src="images/kj.jpg" title="客家摇篮" alt="客家摇篮" /></a>
-       	 	<a href="#" target="_blank"><img src="images/qc.jpg" title="世界橙乡" alt="世界橙乡" /></a>
-        	<a href="#" target="_blank"><img src="images/sc.jpg" title="江南宋城" alt="江南宋城" /></a>
-            <a href="#" target="_blank"><img src="images/st.jpg" title="生态明珠" alt="生态明珠" /></a>
+            <a href="pages/hsgd.html" target="_blank"><img src="images/hs.jpg" title="红色故都" alt="红色故都" /></a>
+        	<a href="pages/ksyl.html" target="_blank"><img src="images/kj.jpg" title="客家摇篮" alt="客家摇篮" /></a>
+       	 	<a href="pages/sjcx.html" target="_blank"><img src="images/qc.jpg" title="世界橙乡" alt="世界橙乡" /></a>
+        	<a href="pages/jnsc.html" target="_blank"><img src="images/sc.jpg" title="江南宋城" alt="江南宋城" /></a>
+            <a href="pages/stmz.html" target="_blank"><img src="images/st.jpg" title="生态明珠" alt="生态明珠" /></a>
 		
         </div>
 		</div>   
@@ -166,13 +169,12 @@ function MM_effectShake(targetElement)
 </tr>
 
 <tr>
-  <td align="center" valign="middle" background="images/xk.jpg">
-  
+  <td align="center" valign="middle" background="images/xk.jpg">  
   <div style="float:left; position:absolute; padding-left:70px; padding-top:85px; z-index:1000; opacity:0.5;">
   <form>
-  <textarea cols="20" rows="4"></textarea><br />
+  <textarea id="music_txx" cols="20" rows="4"></textarea><br />
   <input name="button1" type="reset" value="擦除" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <input name="button2" type="submit" value="提交" />
+  <input name="button2" type="submit" value="提交"  />
   </form>    
   </div>     
   <div>
